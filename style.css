@@ -8,10 +8,7 @@
 
 body {
   font-family: "Tajawal", sans-serif;
-  background-image: url("image2.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100vh;
-  position: relative;
+  background: linear-gradient(135deg, #0d47a1, #1976d2, #64b5f6);
 }
 
 ::selection {
@@ -120,7 +117,7 @@ footer font span {
   background: #8516d0;
   border-radius: 5px;
   padding: 10px 10px;
-  
+
 }
 
 body:before {
