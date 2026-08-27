@@ -8,7 +8,8 @@
 
 body {
   font-family: "Tajawal", sans-serif;
-  background: linear-gradient(135deg, #0d47a1, #1976d2, #64b5f6);
+  background: #fff;
+  color: #000;
 }
 
 ::selection {
@@ -32,7 +33,7 @@ h2 {
   width: 20px;
   padding: 0 10px;
   border-radius: 5px;
-  color: #8516d0;
+  color: red;
   font-weight: bold;
 }
 
@@ -45,7 +46,7 @@ header {
 
 header h1 {
   display: block;
-  color: #8516d0;
+  color: rgb(100,0,200);
   border-radius: 10px;
   margin-top: 20px;
   width: 100%;
@@ -84,7 +85,7 @@ header h1 {
   margin-top: 30px;
   margin-left: 10px;
   line-height: 40px;
-  color: #fff;
+  color: #000;
   font-weight: 500;
 }
 
@@ -120,7 +121,7 @@ footer font span {
 
 }
 
-body:before {
+/*body:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -130,6 +131,10 @@ body:before {
 
 body * {
   position: relative;
+  z-index: 10;
+}
+*/
+/* footer-end */: relative;
   z-index: 10;
 }
 
