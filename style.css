@@ -121,3 +121,9 @@ footer p {
   word-spacing: 2px;
   padding:18px;
 }
+
+@media (min-width: 800px) {
+  footer ul {
+    width: 25%;
+  }
+}
